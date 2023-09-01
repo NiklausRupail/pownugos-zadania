@@ -1,0 +1,41 @@
+footer.footer {
+  background: #263560;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1.5rem;
+  margin-top: 2rem;
+  box-shadow: 0px -6px 20px 2px #00000040;
+
+  .circle {
+    border: 1px solid white;
+    border-radius: 100%;
+    background: transparent;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .circle:hover {
+    color: hsla(272, 15%, 50%, 1);
+    border-color: hsla(272, 15%, 50%, 1);
+  }
+  .socialIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem 0;
+  }
+  .fa-brands {
+    font-size: 20px;
+  }
+  .footerText {
+    text-align: center;
+    font-size: 15px;
+  }
+}

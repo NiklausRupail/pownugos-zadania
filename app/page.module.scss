@@ -1,0 +1,12 @@
+@import '/styles/variables.scss';
+
+.homePage {
+  img {
+    margin: 10px;
+  }
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 350px;
+}
