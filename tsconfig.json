@@ -28,7 +28,9 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "Icons/BalanceIcon.tss"
-, "components/Nav/Nav.jsx"  ],
+    "Icons/BalanceIcon.tss",
+    "components/Nav/Nav.jsx",
+    "app/(zadania)/odsylacz/page.jsx"
+  ],
   "exclude": ["node_modules"]
 }

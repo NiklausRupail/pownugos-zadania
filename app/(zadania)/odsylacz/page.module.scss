@@ -1,0 +1,12 @@
+.pageMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .arrow_link {
+    transition: 0.5s;
+    margin-left: 20px;
+    &:hover {
+      transform: rotate(360deg);
+    }
+  }
+}
