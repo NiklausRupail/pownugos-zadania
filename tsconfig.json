@@ -30,7 +30,7 @@
     ".next/types/**/*.ts",
     "Icons/BalanceIcon.tss",
     "components/Nav/Nav.jsx",
-    "app/(zadania)/odsylacz/page.jsx"
+    "app/(zadania)/(odsylacz-d)/page.jsx"
   ],
   "exclude": ["node_modules"]
 }

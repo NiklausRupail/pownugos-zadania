@@ -27,10 +27,10 @@ const Nav = () => {
               <h5>Strona Główna</h5>
             </Link>
           )}
-          {searchParams === '/herby' ? (
+          {searchParams === '/odsylacz' ? (
             <h5 className='activeNavLink'>Ostatnie zadanie</h5>
           ) : (
-            <Link href={'/herby'}>
+            <Link href={'/odsylacz'}>
               <h5>Ostatnie zadanie</h5>
             </Link>
           )}
