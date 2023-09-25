@@ -43,7 +43,7 @@ const strojUczniowskiPage = () => {
             img={ryziu}
             headText={'Brak Krawata'}
             text={
-              'Krawat krempuje ruchy, więc jego brak daje możliwość palenia cygara cohiba behike 56 za 799zł'
+              'Krawat krępuje ruchy, więc jego brak daje możliwość palenia cygara cohiba behike 56 za 799zł'
             }
             w={300}
           />
