@@ -1,0 +1,21 @@
+main.strojUczniowski {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  h1 {
+    font-size: 42px;
+    text-shadow: 6px 4px 5px #22234d;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+}
+.heroSection {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}

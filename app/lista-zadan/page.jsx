@@ -5,7 +5,13 @@ const listaZadanPage = () => {
   const zadania = [
     { title: 'Herby', rok: '22/23', url: '/herby', key: 1 },
     { title: 'Krzysiu', rok: '22/23', url: '/krzysiu', key: 2 },
-    { title: 'Odsyłacz', rok: '23/24', url: '/odsylacz', key: 3 }
+    { title: 'Odsyłacz', rok: '23/24', url: '/odsylacz', key: 3 },
+    {
+      title: 'Strona o stroju uczniowskim',
+      rok: '23/24',
+      url: '/stroj-uczniowski',
+      key: 4
+    }
   ];
   return (
     <main className={styles.content}>
