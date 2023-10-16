@@ -1,0 +1,35 @@
+main.pageMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(
+    to bottom,
+    #f7a54d,
+    #ff9155,
+    #ff7c64,
+    #ff6877,
+    #ff598d,
+    #f660ad,
+    #e46cc9,
+    #c97be2,
+    #a295f7,
+    #7ba9fe,
+    #64b9f9,
+    #67c5ed
+  );
+  h1 {
+    font-size: 30px;
+    font-weight: 400;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .codeShitLogo {
+    padding: 30px;
+    transition: 0.5s;
+    &:hover {
+      transform: scale(1.1, 1.1);
+    }
+  }
+}

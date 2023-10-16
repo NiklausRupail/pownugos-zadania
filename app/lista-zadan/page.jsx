@@ -11,6 +11,19 @@ const listaZadanPage = () => {
       rok: '23/24',
       url: '/stroj-uczniowski',
       key: 4
+    },
+    { title: 'Box Model', rok: '23/24', url: '/box-model', key: 4 },
+    {
+      title: 'Stylowanie Buttonów',
+      rok: '23/24',
+      url: '/stylowanie-buttonow',
+      key: 5
+    },
+    {
+      title: 'Code Week',
+      rok: '23/24',
+      url: '/codeshit',
+      key: 6
     }
   ];
   return (
