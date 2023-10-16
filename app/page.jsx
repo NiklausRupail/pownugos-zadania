@@ -1,6 +1,9 @@
 import Image from 'next/image';
 import logo from 'public/next.svg';
 import styles from './page.module.scss';
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+config.autoAddCss = false;
 
 const HomePage = () => {
   return (

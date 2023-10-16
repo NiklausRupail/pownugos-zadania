@@ -4,6 +4,9 @@
   img {
     margin: 10px;
   }
+  @include media('<=tablet') {
+    transform: scale(0.8);
+  }
   flex-direction: column;
   display: flex;
   justify-content: center;

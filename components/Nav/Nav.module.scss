@@ -50,3 +50,30 @@
     }
   }
 }
+.mobileNav {
+  display: none;
+  @include media('<=tablet') {
+    display: flex;
+  }
+  img {
+    border-radius: 100%;
+  }
+  padding: 16px 60px;
+  margin-bottom: 200px;
+  justify-content: space-between;
+  align-items: center;
+  .links {
+    a {
+      color: #263560;
+      text-decoration: none;
+      transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      &:hover {
+        box-shadow: inset 130px 0 0 0 #54b3d6;
+        color: white;
+      }
+    }
+    display: flex;
+    justify-content: space-around;
+    gap: 115px;
+  }
+}

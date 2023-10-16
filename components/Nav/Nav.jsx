@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import logo from '../../public/logo.jpeg';
 import styles from './Nav.module.scss';
+import listIcon from 'components/icons/listIcon';
 
 const Nav = () => {
   const searchParams = usePathname();
@@ -39,6 +40,24 @@ const Nav = () => {
           ) : (
             <Link href={'/lista-zadan'}>
               <h5>Lista zadań</h5>
+            </Link>
+          )}
+        </div>
+      </nav>
+      <nav className={styles.mobileNav}>
+        <Link href={'/'}>
+          <Image alt='just bragging bratan' src={logo} width={50} height={50} />
+        </Link>
+        <div className={styles.links}>
+          {searchParams === '/lista-zadan' ? (
+            <h5 className='activeNavLink'>
+              <i class='fa-solid fa-list'></i>
+            </h5>
+          ) : (
+            <Link href={'/lista-zadan'}>
+              <h5>
+                <listIcon />
+              </h5>
             </Link>
           )}
         </div>
