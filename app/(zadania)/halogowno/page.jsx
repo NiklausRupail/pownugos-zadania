@@ -9,7 +9,11 @@ const HalloweenPage = () => {
   return (
     <main className={styles.pageMain}>
       <h1>Halloween</h1>
-      <Image className={styles.codeShitLogo} src={skeleton}></Image>
+      <Image
+        className={styles.codeShitLogo}
+        src={skeleton}
+        alt='szkieletor'
+      ></Image>
       <section>
         Dlaczego Halloween obchodzone jest 31 października? <br></br> Istnieją
         dwie odpowiedzi na to pytanie: pogańska i chrześcijańska. Starożytne
@@ -20,7 +24,7 @@ const HalloweenPage = () => {
         obserwatorzy wierzyli również, że granica między tym światem a następnym
         stała się szczególnie cienka, umożliwiając im łączenie się ze zmarłymi.
         Jest to również miejsce, w którym historia Halloween zyskuje swoje
-        "nawiedzone" konotacje. Jak sugeruje etymologia nazwy, Halloween ma
+        nawiedzone konotacje. Jak sugeruje etymologia nazwy, Halloween ma
         również chrześcijańskie korzenie. Obchody chrześcijańskich męczenników i
         świętych sięgają Rzymu z IV wieku. Na początku VII wieku papież Bonifacy
         IV umieścił Dzień Wszystkich Świętych w kalendarzu, kiedy poświęcił
@@ -34,7 +38,7 @@ const HalloweenPage = () => {
         Wszystkich Świętych, czyli Halloween, 31 października, a także Dzień
         Zaduszny 2 listopada - trzydniowe święto zwane Hallowtide.
       </section>
-      <Image src={skeleton2}></Image>
+      <Image src={skeleton2} alt='szkieletor'></Image>
       <section>
         Obchody chrześcijańskich męczenników i świętych sięgają Rzymu z IV
         wieku. Na początku VII wieku papież Bonifacy IV umieścił Dzień
@@ -49,7 +53,7 @@ const HalloweenPage = () => {
         października, a także Dzień Zaduszny 2 listopada - trzydniowe święto
         zwane Hallowtide.
       </section>
-      <Image src={skeleton3}></Image>
+      <Image src={skeleton3} alt='szkieletor'></Image>
     </main>
   );
 };
