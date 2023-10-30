@@ -1,0 +1,25 @@
+main.pageMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  section {
+    max-width: 60ch;
+    text-align: center;
+  }
+  h1 {
+    font-size: 30px;
+    font-weight: 400;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .codeShitLogo {
+    padding: 30px;
+    transition: 0.5s;
+    &:hover {
+      transform: scale(1.1, 1.1);
+    }
+  }
+}
