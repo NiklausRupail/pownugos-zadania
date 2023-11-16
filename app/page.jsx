@@ -12,6 +12,13 @@ const HomePage = () => {
         <Image src={logo}></Image>
         <h1>Całość stworzona dzięki NEXT.js</h1>
         <small>googlowanie nie boli{')'}</small>
+        <h2>
+          Obrazując kolącą w oczy niekompetencję kadry nauczycielskiej
+          przedstawiam kompilacje genialnych myśli w formacie informatycznym:
+        </h2>
+        <ol>
+          <li>test</li>
+        </ol>
       </section>
     </>
   );

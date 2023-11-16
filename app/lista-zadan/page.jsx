@@ -24,10 +24,23 @@ const listaZadanPage = () => {
       rok: '23/24',
       url: '/codeshit',
       key: 6
+    },
+    {
+      title: 'Haloween',
+      rok: '23/24',
+      url: '/halogowno',
+      key: 7
+    },
+    {
+      title: '11 Listopada',
+      rok: '23/24',
+      url: '/bughonor',
+      key: 8
     }
   ];
   return (
     <main className={styles.content}>
+      <h1>Lista wszystkich zadań z różnych durnych przedmiotów</h1>
       <ul>
         {zadania.map((zad) => (
           <ZadList
