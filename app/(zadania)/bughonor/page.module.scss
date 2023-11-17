@@ -22,11 +22,11 @@ main.pageMain {
   }
   .codeShitLogo {
     padding: 30px;
-    transition: 5s;
+    transition: 2s;
     width: 600px;
     height: auto;
     &:hover {
-      transform: matrix3d(1, 1, 2, 0, 0, 3, 39, 0, 15, 5, 2, 1, 2, 2, 0, 2);
+      transform: rotate(360deg);
     }
   }
 }
