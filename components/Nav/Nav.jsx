@@ -4,10 +4,10 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import logo from '../../public/logo.jpeg';
 import styles from './Nav.module.scss';
-import listIcon from 'components/icons/listIcon';
-
+import { zadania } from '../../scripts/zadania.js';
 const Nav = () => {
   const searchParams = usePathname();
+  const url = zadania[zadania.length - 1].url;
   return (
     <>
       <nav className={styles.nav}>
@@ -27,14 +27,13 @@ const Nav = () => {
               <h5>Strona Główna</h5>
             </Link>
           )}
-          {searchParams === '/odsylacz' ? (
+          {searchParams === url ? (
             <h5 className='activeNavLink'>Ostatnie zadanie</h5>
           ) : (
-            <Link href={'/odsylacz'}>
+            <Link href={`${url}`}>
               <h5>Ostatnie zadanie</h5>
             </Link>
           )}
-
           {searchParams === '/lista-zadan' ? (
             <h5 className='activeNavLink'>Lista zadań</h5>
           ) : (

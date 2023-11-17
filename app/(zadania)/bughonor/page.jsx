@@ -44,9 +44,6 @@ const BugCHonorOjczysna = () => {
         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
         allowfullscreen
       ></iframe>
-      <p className='small'>
-        Nie pozdrawiam, niesmacznej kawusi. A nóż się udusi. Antoni Mielewski
-      </p>
     </main>
   );
 };
