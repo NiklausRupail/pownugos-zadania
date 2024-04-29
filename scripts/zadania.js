@@ -38,5 +38,11 @@ export const zadania = [
     rok: '23/24',
     url: '/kolumny',
     key: 9
+  },
+  {
+    title: 'Kawiarnia Cwel',
+    rok: '23/24',
+    url: '/mors',
+    key: 10
   }
 ];
