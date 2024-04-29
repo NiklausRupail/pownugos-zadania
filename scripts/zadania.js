@@ -32,5 +32,11 @@ export const zadania = [
     rok: '23/24',
     url: '/bughonor',
     key: 8
+  },
+  {
+    title: 'kolumny',
+    rok: '23/24',
+    url: '/kolumny',
+    key: 9
   }
 ];

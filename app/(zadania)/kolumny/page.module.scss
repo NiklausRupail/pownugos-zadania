@@ -1,0 +1,41 @@
+.header {
+  background-color: rgb(43, 43, 148);
+  height: 10vh;
+  display: grid;
+  place-content: center;
+}
+
+.nav {
+  background-color: rgb(46, 187, 46);
+  height: 80vh;
+  width: 30%;
+  float: left;
+  display: grid;
+  place-content: center;
+}
+
+.main {
+  background-color: rgb(49, 27, 49);
+  height: 80vh;
+  width: 40%;
+  float: left;
+  display: grid;
+  place-content: center;
+}
+
+.aside {
+  background-color: rgb(85, 31, 10);
+  height: 80vh;
+  width: 30%;
+  float: left;
+  display: grid;
+  place-content: center;
+}
+
+.footer {
+  background-color: rgb(255, 251, 2);
+  height: 10vh;
+  clear: both;
+  display: grid;
+  place-content: center;
+}
