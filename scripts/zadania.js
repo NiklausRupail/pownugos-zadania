@@ -40,7 +40,7 @@ export const zadania = [
     key: 9
   },
   {
-    title: 'Kawiarnia Cwel',
+    title: 'Kawiarnia Mors',
     rok: '23/24',
     url: '/mors',
     key: 10
