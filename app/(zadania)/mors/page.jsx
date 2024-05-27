@@ -3,7 +3,7 @@ import Image from 'next/image';
 import styles from './page.module.scss';
 import cake from '../../../public/cake.jpg';
 
-const MorsPedalePage = () => {
+const MorsPage = () => {
   return (
     <main className={styles.pageMain}>
       <header>
@@ -25,4 +25,4 @@ const MorsPedalePage = () => {
     </main>
   );
 };
-export default MorsPedalePage;
+export default MorsPage;
