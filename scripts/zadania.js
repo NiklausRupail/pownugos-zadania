@@ -44,5 +44,11 @@ export const zadania = [
     rok: '23/24',
     url: '/mors',
     key: 10
+  },
+  {
+    title: 'Tabele',
+    rok: '24/25',
+    url: '/tabele',
+    key: 11
   }
 ];
