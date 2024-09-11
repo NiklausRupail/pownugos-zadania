@@ -1,0 +1,76 @@
+.dick {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  margin-bottom: 126px;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+.tabela_zielona {
+  font-family: Arial, sans-sherif;
+  font-size: 16px;
+  transition: 0.5s all ease-out;
+
+  .czigowno {
+    text-align: right;
+    vertical-align: bottom;
+  }
+  .dwagowno {
+    text-align: center;
+    vertical-align: middle;
+  }
+  .odingowno {
+    text-align: left;
+    vertical-align: top;
+  }
+  th,
+  td {
+    border: 1px solid black;
+    padding: 4px;
+  }
+  th {
+    background-color: green;
+    color: white;
+  }
+}
+
+table.tabela_owoce {
+  font-family: Arial, sans-sherif;
+  font-size: 16px;
+  border-spacing: 4px 3px;
+  border-collapse: separate;
+  height: 10px;
+  th {
+    padding: 4px;
+  }
+  td {
+    border: 1px solid black;
+    padding: 4px;
+  }
+  th {
+    border: 1px solid black;
+    background-color: green;
+    color: white;
+  }
+}
+table.tabela_imiona {
+  font-family: Arial, sans-sherif;
+  font-size: 16px;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 800px;
+  height: 50px;
+  th,
+  td {
+    border: 1px solid black;
+    padding: 4px;
+  }
+  th {
+    background-color: #ffa500;
+    color: #001ecf;
+  }
+}
