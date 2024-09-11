@@ -3,6 +3,8 @@ import logo from 'public/next.svg';
 import styles from './page.module.scss';
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
+import { cytaty } from '../scripts/cytatyBase.js';
+import QuoteElement from '../components/QuoteElement/QuoteElement.jsx';
 config.autoAddCss = false;
 
 const HomePage = () => {
@@ -17,7 +19,13 @@ const HomePage = () => {
           przedstawiam kompilacje genialnych myśli w formacie informatycznym:
         </h2>
         <ol>
-          <li>test</li>
+          {cytaty.map((cytat) => (
+            <QuoteElement
+              autor={cytat.autor}
+              content={cytat.tresc}
+              key={cytat.key}
+            />
+          ))}
         </ol>
       </section>
     </>
