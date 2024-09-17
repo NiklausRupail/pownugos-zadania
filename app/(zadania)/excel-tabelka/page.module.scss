@@ -1,0 +1,11 @@
+.excelPage {
+}
+.bold {
+  font-weight: bold;
+}
+.rotate {
+  transition: 0.5s all;
+  :hover {
+    transform: rotate(180deg);
+  }
+}

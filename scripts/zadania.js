@@ -50,5 +50,11 @@ export const zadania = [
     rok: '24/25',
     url: '/tabele',
     key: 11
+  },
+  {
+    title: 'Excel Tabelka',
+    rok: '24/25',
+    url: '/excel-tabelka',
+    key: 12
   }
 ];
