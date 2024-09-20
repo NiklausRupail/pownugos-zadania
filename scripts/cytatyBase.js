@@ -1,16 +1,6 @@
 export const cytaty = [
   {
     autor: 'Brodacz',
-    tresc: '',
-    key: 1
-  },
-  {
-    autor: 'A. Rolex',
-    tresc: '',
-    key: 2
-  },
-  {
-    autor: 'Brodacz',
     tresc: 'kobiety mnie okłamują, ale faceci to już na mega',
     key: 3
   },

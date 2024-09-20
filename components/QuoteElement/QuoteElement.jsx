@@ -5,7 +5,7 @@ const QuoteElement = (props) => {
   return (
     <li className={styles.QuoteElement}>
       <p>
-        {content} ~ {autor}
+        {content} ~ <span>{autor}</span>
       </p>
     </li>
   );
