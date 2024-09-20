@@ -56,5 +56,17 @@ export const zadania = [
     rok: '24/25',
     url: '/excel-tabelka',
     key: 12
+  },
+  {
+    title: 'Wiersz (Dodatkowe)',
+    rok: '24/25',
+    url: '/wiersz',
+    key: 13
+  },
+  {
+    title: 'Logo',
+    rok: '24/25',
+    url: '/logo',
+    key: 14
   }
 ];

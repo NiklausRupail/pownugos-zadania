@@ -1,3 +1,5 @@
+import Link from 'next/link';
+import styles from './page.module.scss';
 const LogoPage = () => {
   const css = `
     div#logo {
@@ -12,16 +14,24 @@ const LogoPage = () => {
         padding: 2px 3px;
     }
     main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+        a:hover {
+      color: white;
+      background-color: #303030;
     }
     `;
   return (
     <>
       <style>{css}</style>
-      <main>
+      <main className={styles.main}>
         <div id='logo'>Mikołaj</div>
+        <Link href='/wiersz' target='_blank'>
+          {'-> '}Zadanie dodatkowe {' <-'}
+        </Link>
       </main>
     </>
   );
