@@ -17,7 +17,7 @@ const MorsPage = () => {
         </button>
       </div>
       <div className={styles.gowno}>
-        <Image src={cake}></Image>
+        <Image alt='Ciasto' src={cake}></Image>
       </div>
       <footer>
         <p>tel: 745 180 631</p> <p>e-mail: mors@wp.pl</p>

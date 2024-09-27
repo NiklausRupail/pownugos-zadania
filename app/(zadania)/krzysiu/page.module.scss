@@ -14,4 +14,13 @@
   #pressure {
     max-width: 118ch !important;
   }
+  a {
+    text-decoration: none;
+    :-webkit-any-link {
+      color: black;
+    }
+    :visited {
+      color: black;
+    }
+  }
 }

@@ -1,8 +1,12 @@
+import Link from 'next/link';
 import styles from './page.module.scss';
 const krzysiu = () => {
   return (
     <main className={styles.krzysiu}>
-      <h2>Krzysiu w szkole</h2>
+      <h2>
+        <Link href='/mega-ultra-tajna-podstrona-z-tajnymi-danymi'>Krzysiu</Link>{' '}
+        w szkole
+      </h2>
       <p>
         Na lekcji wychowania fizycznego Krzyś skaleczył się w rękę. Pani
         higienistka, przy użyciu C<sub>2</sub>H<sub>5</sub>OH odkaziła mu

@@ -68,5 +68,11 @@ export const zadania = [
     rok: '24/25',
     url: '/logo',
     key: 14
+  },
+  {
+    title: 'Dzień Dziewczyn (kursor)',
+    rok: '24/25',
+    url: '/dzien-dziewczyn',
+    key: 15
   }
 ];

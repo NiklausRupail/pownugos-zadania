@@ -1,0 +1,29 @@
+main.dzienDziewczyn {
+  cursor: crosshair;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  a {
+    text-decoration: none;
+    :hover {
+      cursor: pointer;
+      transform: rotate(360deg);
+    }
+    h1 {
+      font-size: 30px;
+      text-decoration: none;
+      :hover {
+        transform: translate(2px, 3px);
+      }
+    }
+  }
+  img {
+    width: calc(100% - 20rem);
+    height: 100%;
+    margin: 5rem 10rem;
+    border-radius: 6px;
+    filter: drop-shadow(10px 8px 4px black);
+  }
+}
