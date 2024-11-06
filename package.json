@@ -1,5 +1,5 @@
 {
-  "name": "wnugga",
+  "name": "pownugos",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -20,7 +20,7 @@
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
     "include-media": "^2.0.0",
-    "next": "13.4.19",
+    "next": "13.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sass": "^1.66.1",
